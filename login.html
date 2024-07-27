@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Tourism Website</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body style="background-image: url(img/login.jpg);">
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">ContactUs</a></li>
+            <li><a href="register.html">Register</a></li>
+        </ul>
+    </nav>
+
+    <div class="container" style="background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */;">
+        <h2>Login Form</h2>
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Login</button> <br><br>
+            <button type="reset">Reset</button>
+        </form>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
